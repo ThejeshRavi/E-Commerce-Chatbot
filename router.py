@@ -1,6 +1,6 @@
 from semantic_router import Route
 from semantic_router.encoders import HuggingFaceEncoder
-from semantic_router.routers import SemanticRouter
+from semantic_router import SemanticRouter
 
 encoder = HuggingFaceEncoder(model_name="sentence-transformers/all-MiniLM-L6-v2")
 
